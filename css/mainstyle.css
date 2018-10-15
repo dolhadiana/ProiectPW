@@ -1,23 +1,30 @@
+*{
+	margin:0;
+	padding:0;
+}
 #Container{
-  margin-top: 5px;
+  width: 100%;
 }
 #Header{
   height: 200px;
   background-color: pink;
+  width: 100%;
 }
 #Favorite{
   height: 100px;
   background-color: yellow;
+  width: 100%;
 }
 #Menu{
   margin-top: 54px;
   height: 46px;
   background-color: blue;
+  width: 100%;
 }
 ul.navButtons{
     list-style-type: none;
-    margin-left: 250px;
-    padding: 0px;
+	margin-left: 10%;
+    width: 100%;
 }
 li{
   float: left;
@@ -35,7 +42,7 @@ a:link, a:visited {
 a:hover, a:active {
     background-color: orange;
 }
-#searchbar input[type=text]{
+.searchbar input[type=text]{
     float: right;
     padding: 2px;
     border: none;
